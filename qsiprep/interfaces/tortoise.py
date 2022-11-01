@@ -162,8 +162,8 @@ class GatherDRBUDDIInputs(SimpleInterface):
             self._results["blip_up_bmat"] = write_dummy_bmtxt(blip_up_nii)
             self._results["blip_down_bmat"] = write_dummy_bmtxt(blip_down_nii)
 
-            # Someday, maybe we'll need to filter these
-            self._results["t2w_files"] = self.inputs.t2w_files
+        # Someday, maybe we'll need to filter these
+        self._results["t2w_files"] = self.inputs.t2w_files
 
         return runtime
 
