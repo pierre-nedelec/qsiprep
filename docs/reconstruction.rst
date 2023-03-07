@@ -11,6 +11,9 @@ by specifying a JSON file with the ``--recon-spec`` option. Here we use
 "reconstruction" to mean reconstructing ODFs/FODs/EAPs and connectivity matrices
 from the preprocessed diffusion data.
 
+Note: if you have already run ``qsiprep`` successfully without reconstruction, 
+add the ``--recon-only`` flag to the commands you'll see below.
+
 The easiest way to get started is to use one of the :ref:`preconfigured_workflows`.
 Instead of specifying a path to a file you can choose from the following:
 
